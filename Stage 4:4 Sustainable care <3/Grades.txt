@@ -1,0 +1,23 @@
+fun main() {
+    val n = readln().toInt()
+    var sumA = 0
+    var sumB = 0
+    var sumC = 0
+    var sumD = 0
+    repeat(n) {
+        val next = readln().toInt()
+        if(next == 5) {
+            sumA++
+        }
+        else if(next == 4) {
+            sumB++
+        }
+        else if(next == 3) {
+            sumC++
+        }
+        else if(next == 2) {
+            sumD++
+        }
+    }
+    print("$sumD $sumC $sumB $sumA")
+}
