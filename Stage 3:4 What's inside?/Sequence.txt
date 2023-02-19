@@ -1,0 +1,7 @@
+fun main() {
+    var char1 = readln().first()
+    var char2 = readln().first()
+    var char3 = readln().first()
+
+    print((char1 +1 == char2) && (char2 +1 == char3))
+}
