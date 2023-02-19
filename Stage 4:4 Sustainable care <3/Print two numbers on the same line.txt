@@ -1,0 +1,6 @@
+fun main() {
+    var num1 = readln().toString()
+    var num2 = readln().toString()
+
+    print(num1 + " " + num2)
+}
