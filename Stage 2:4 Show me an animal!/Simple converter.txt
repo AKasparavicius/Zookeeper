@@ -1,0 +1,11 @@
+fun main() {
+    val num = readln()
+
+    var a = num
+    var b = num.toDouble()
+    var c = num.toString().toBoolean()
+
+    println(a)
+    println(b)
+    println(c)
+}
