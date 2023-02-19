@@ -1,0 +1,5 @@
+fun main() {
+    var n = readln().toInt()
+    var ndiv = (n / 2)
+    print("The obtained value is $n and its Int representation after division on 2 is $ndiv")
+}
