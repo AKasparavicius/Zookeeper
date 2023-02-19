@@ -1,0 +1,13 @@
+fun main() {
+    val inputNum = readln().toInt()
+    var n = 1
+    var i = 0
+    var x = 0
+    
+    while (i <= inputNum) {
+        i++
+        x = n * n
+        n++
+        if(x <= inputNum) println(x)
+    }
+}
