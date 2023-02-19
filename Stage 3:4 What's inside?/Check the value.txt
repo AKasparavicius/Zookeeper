@@ -1,0 +1,7 @@
+fun main() {
+    var checker = readln().toInt()
+    if(checker>0 && checker<10){
+        print(true)
+    }
+    else print(false)
+}
