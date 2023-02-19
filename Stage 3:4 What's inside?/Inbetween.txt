@@ -1,0 +1,13 @@
+fun main() {
+    var a = readln().toInt()
+    var b = readln().toInt()
+    var c = readln().toInt()
+
+    if(a>=b && a<=c){
+        print(true)
+    }
+    else if(a<=b && a>=c){
+        print(true)
+    }
+    else print(false)
+}
