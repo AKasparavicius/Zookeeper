@@ -1,0 +1,10 @@
+fun main() {
+    var a = readln().toInt()
+    var b: Boolean
+    if(a<10){
+        print(true)
+    }
+    if(a>=10){
+        print(false)
+    }
+}
