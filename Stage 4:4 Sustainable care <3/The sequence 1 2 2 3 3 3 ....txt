@@ -1,0 +1,13 @@
+fun main() {
+    var n = readln().toInt()
+    var count = 1
+    var i = 0
+    while(n >= count) {
+        repeat(count){
+            i++
+            if(i <= n)
+            print("$count ")
+        }
+        count++
+    }
+}
