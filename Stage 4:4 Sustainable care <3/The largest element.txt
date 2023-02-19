@@ -1,0 +1,13 @@
+import java.util.*
+
+fun main() {
+    var max = Int.MIN_VALUE
+    var scanner = Scanner(System.`in`)
+    while(scanner.hasNextInt()) {
+        var next = scanner.nextInt()
+        if(max < next){
+            max = next
+        }
+    }
+    print(max)
+}
